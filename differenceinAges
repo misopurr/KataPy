@@ -1,0 +1,6 @@
+def difference_in_ages(ages):
+    AscAges = sorted(ages)
+    MaxMinDifference = (int(AscAges[-1]) - int(AscAges[0]))
+    YoungestOldestAverage = AscAges[0], AscAges[-1], MaxMinDifference 
+    return YoungestOldestAverage
+    pass
